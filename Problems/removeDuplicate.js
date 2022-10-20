@@ -1,6 +1,6 @@
 let numbers = [1, 2, 2, 3, 4, 4, 5, 5];
 
-let duplicate = 0;
+let duplicate;
 let uniqueNumbers = [];
 
 for (let i = 0; i < numbers.length; i++) {
