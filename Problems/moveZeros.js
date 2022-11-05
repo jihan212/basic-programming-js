@@ -1,11 +1,10 @@
-let numbers = [1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0];
-
-let last = numbers.length - 1;
-
-for (let i = 0; i < numbers.length; i++) {
-	if (numbers[i] == 0) {
-		let temp = numbers[i];
-		last = temp;
-	}
+function sum(num1, num2) {
+	console.log(num1 + num2);
 }
-console.log(numbers);
+
+console.log(sum(2, 3));
+
+// console.log('2' * undefined)
+// console.log(undefined * 2)
+// console.log(2 * null)
+// console.log(null * '2')
